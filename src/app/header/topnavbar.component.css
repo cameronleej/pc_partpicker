@@ -1,0 +1,29 @@
+.navbar-brand{
+    font-size: 40px;
+    color: white;
+    font-style: bold;
+    font-family: Sans,serif;
+    
+}
+
+#PART{
+    color: goldenrod;
+}
+
+.container-fluid{
+    background: #191b2b;
+    padding: 30px;
+}
+#right-nav{
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+    font-style: bold;
+}
+
+#nav-item{
+    color: white;
+    font-style: bold;
+    font-size: 16pt;
+    text-decoration: none;
+}
