@@ -1,0 +1,20 @@
+
+
+nav .navbar-nav li a{
+    color: white !important;
+    }
+
+nav .navbar-nav li a:hover{
+    color: goldenrod !important;
+
+}
+
+.grey{
+    color: grey;
+}
+.back{
+   
+    background-color: #312f43; 
+    padding: 25px;
+}
+
