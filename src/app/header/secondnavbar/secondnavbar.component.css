@@ -1,11 +1,12 @@
 
 
 nav .navbar-nav li a{
-    color: white !important;
+    color: white ;
     }
 
 nav .navbar-nav li a:hover{
-    color: goldenrod !important;
+    color: goldenrod ;
+    background: grey;
 
 }
 
@@ -18,3 +19,10 @@ nav .navbar-nav li a:hover{
     padding: 25px;
 }
 
+.dropdown-menu{
+    background-color: #191b2b;
+  }
+  .dropdown-divider{
+
+    color:grey;
+  }

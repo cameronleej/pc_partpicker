@@ -5,25 +5,41 @@
     font-family: Sans,serif;
     
 }
+.grey{
+  color: grey;
+}
+nav .navbar-nav li a{
+  color: white ;
+  }
 
+nav .navbar-nav li a:hover{
+  color: goldenrod;
+
+}
+.grey{
+  color: grey;
+}
 #PART{
     color: goldenrod;
+}
+#main-logo{
+
+  color: white;
+  font-size: 35pt;
+}
+#nav-link{
+
+  color: white;
+  font-size: 20pt;
 }
 
 .container-fluid{
     background: #191b2b;
     padding: 35px;
 }
-#right-nav{
-    padding-left: 10px;
-    text-decoration: none;
-    color: white;
-    font-size: 16pt;
-    font-style: bold;
-}
 
-#right-nav:hover{
-    color: goldenrod;
+.dropdown-menu{
+  background-color: #191b2b;
 }
 
 
@@ -63,7 +79,7 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: darkblue;
     -webkit-transition: .4s;
     transition: .4s;
   }
