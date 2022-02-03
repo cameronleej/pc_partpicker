@@ -1,0 +1,24 @@
+.card{
+    width: 25rem;
+    height: 40rem;
+    background-color: #B18C5A;
+    padding: 10pt;
+}
+
+.card .card-title{
+    color: white;
+    font-size: 17pt;
+    font-weight: bold;
+}
+.card .card-text{
+
+  font-size: 15 pt;
+}
+
+.card:hover{
+  outline: 5pt solid black ;
+}
+
+#comments{
+  float: right;
+}

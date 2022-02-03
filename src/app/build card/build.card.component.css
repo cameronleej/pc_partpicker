@@ -1,0 +1,38 @@
+.card{
+    width: 25rem;
+    height: 42rem;
+    background-color: whitesmoke;
+    padding: 0;
+}
+
+.card .card-title{
+  background-color: #191b2b;
+    color: white;
+    font-size: 15pt;
+    font-style: bold;
+    padding: 20px !important;
+
+  }
+  #build-title{
+
+    font-weight: bold;
+
+  }
+.card .card-text{
+
+  font-size: 11 pt;
+}
+
+.card:hover{
+  outline: 5pt solid darkorange ;
+}
+.userID{
+  text-decoration: none ;
+}
+.userID:hover{
+  color: white;
+  text-decoration: underline;
+}
+#comments{
+  float: right;
+}
