@@ -3,20 +3,25 @@
     height: 40rem;
     background-color: #B18C5A;
     padding: 10pt;
+    margin-right: 2rem;
 }
 
 .card .card-title{
     color: white;
     font-size: 17pt;
     font-weight: bold;
+    text-decoration: none;
 }
 .card .card-text{
 
-  font-size: 15 pt;
+  font-size: 10 pt;
+  font-weight: bold;
+
+
 }
 
 .card:hover{
-  outline: 5pt solid black ;
+  outline: 2pt solid black ;
 }
 
 #comments{

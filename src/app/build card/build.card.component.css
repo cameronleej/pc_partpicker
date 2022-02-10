@@ -3,6 +3,7 @@
     height: 42rem;
     background-color: whitesmoke;
     padding: 0;
+    margin-left: 2rem;
 }
 
 .card .card-title{
@@ -20,7 +21,7 @@
   }
 .card .card-text{
 
-  font-size: 11 pt;
+  font-size: 11pt;
 }
 
 .card:hover{
@@ -35,4 +36,5 @@
 }
 #comments{
   float: right;
+  font-weight: bold;
 }

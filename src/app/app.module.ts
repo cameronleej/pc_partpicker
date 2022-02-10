@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import { BuildCardComponent } from './build card/build.card.component';
 import { TopNavBarComponent } from './header/firstnavbar/topnavbar.component';
 import { SecondNavBarComponent } from './header/secondnavbar/secondnavbar.component';
-import { CategoryCardComponent } from './store card/category.card.component';
+import { CategoryCardComponent } from './store section/store card/category.card.component';
+import { StoreTitleCardComponent } from './store section/store title/store.title.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CategoryCardComponent } from './store card/category.card.component';
     TopNavBarComponent,
     SecondNavBarComponent,
     CategoryCardComponent,
-    BuildCardComponent
+    BuildCardComponent,
+    StoreTitleCardComponent
     ],
   imports: [
     BrowserModule

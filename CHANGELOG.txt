@@ -1,0 +1,13 @@
+
+
+Lab 3:
+
+*Added the Store Card components
+    -3 cards for the 3 different preset builds
+    -has Build title, description, comments, price, and image components to the card component
+*Added the Build Card components    
+    -3 cards for 3 different users builds
+    -has User ID, photo, build title, cpu, gpu, comments, price, and upvote components of the card component
+*BONUS
+    Added the background and title card , and button for the preset builds
+
