@@ -1,28 +1,8 @@
 <pcpart-topnavbar> Loading...</pcpart-topnavbar>
 <pcpart-secondnavbar>Loading...</pcpart-secondnavbar>
 
-
-<div class="container-fluid d-flex">
-    <div>
-        <pcpart-store-title-card>Loading...</pcpart-store-title-card>
-    </div>
-    <div *ngFor="let product of products">
-        <pcpart-category-card img={{product.img}} title= {{product.title}} [price]= 'product.price'[comments] = 'product.comments' description= {{product.description}}>Loading...</pcpart-category-card>
-    </div>
-    
-</div>
+<router-outlet></router-outlet>
 
 
 
-<div class="container-fluid brandcard">
-    <h5>Completed Builds</h5>
-    <hr class="solid">
 
-    <div class="brandcard d-flex">
-        <div *ngFor="let build of builds">
-            <pcpart-build-card img={{build.img}} title= {{build.title}} [price]= 'build.price'[comments] = 'build.comments' [upvotes] = 'build.upvotes' cpu= {{build.cpu}} gpu = {{build.gpu}} userID={{build.userID}}>Loading...</pcpart-build-card>
-        </div>
-    </div>
-    
-    
-</div>

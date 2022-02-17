@@ -1,13 +1,18 @@
 
 
-Lab 3:
+Lab 4:
 
-*Added the Store Card components
-    -3 cards for the 3 different preset builds
-    -has Build title, description, comments, price, and image components to the card component
-*Added the Build Card components    
-    -3 cards for 3 different users builds
-    -has User ID, photo, build title, cpu, gpu, comments, price, and upvote components of the card component
-*BONUS
-    Added the background and title card , and button for the preset builds
+*Added Home layout component and routing
+
+*added system builder layout component and routing
+
+*added builde guides layout component and routing
+
+*added complete build layout component and routing
+
+*added headphone layout component and routing
+
+*added the build guides and complete build components to the respective routes, and formatted using flex box
+
+
 

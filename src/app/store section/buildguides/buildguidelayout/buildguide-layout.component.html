@@ -1,0 +1,18 @@
+
+<h2>Build Guides</h2>
+
+<h4>Desktop/Gaming/Streaming</h4>
+<hr class="solid">
+
+<div class="container-fluid">
+
+    <div class="row">
+
+        <div *ngFor="let product of products" class="col-3">
+            <pcpart-category-card img={{product.img}} title={{product.title}} [price]='product.price'
+                [comments]='product.comments' description={{product.description}}>Loading...</pcpart-category-card>
+        </div>
+    </div>
+
+
+</div>
