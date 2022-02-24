@@ -1,18 +1,18 @@
 
 
-Lab 4:
+Lab 5:
 
-*Added Home layout component and routing
+System Builder Layout:
+*Added system builder pc part component, and used NG for loop to add more rows
 
-*added system builder layout component and routing
+* added the compatability componenet up at the top, and used rows and columns to organize it 
 
-*added builde guides layout component and routing
+*added notes component as a card for the bottom of the page
 
-*added complete build layout component and routing
+Complete Title Component:
 
-*added headphone layout component and routing
-
-*added the build guides and complete build components to the respective routes, and formatted using flex box
+* added ng for loop and used cards to add builds to the page
+* added a card for the title and the search bars
 
 
 
