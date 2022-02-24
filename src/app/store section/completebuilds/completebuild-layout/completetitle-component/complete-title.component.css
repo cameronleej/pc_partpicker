@@ -1,0 +1,16 @@
+.card{
+
+    margin: auto;
+    border: none;
+    padding-top: 5rem;
+    padding-left: 1rem;
+  
+}
+#note{
+    color: orange;
+    font-weight: bold;
+    font-size: 15pt;
+}
+.input-group{
+   padding-right: 1rem;
+}

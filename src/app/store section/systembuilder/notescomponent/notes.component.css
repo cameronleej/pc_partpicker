@@ -1,0 +1,13 @@
+.card{
+
+    width: 90rem;
+    margin: auto;
+    border: none;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+#note{
+    color: orange;
+    font-weight: bold;
+    font-size: 15pt;
+}

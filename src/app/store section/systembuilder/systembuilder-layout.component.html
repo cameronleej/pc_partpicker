@@ -1,6 +1,36 @@
+
 <h2>System Builder</h2>
 
-<div class="row-3">
-    <div class="col-1"></div>
-    
+<compatability></compatability>
+
+<div class="card justify-content-center">
+    <div class="row justify-content-left">
+        <div class="col-1">Component</div>
+        <div class="col-1">Selection</div>
+        <div class="col-1"></div>
+        <div class="col-1">Base</div>
+        <div class="col-1">Promo</div>
+        <div class="col-1">Shipping</div>
+        <div class="col-1"></div>
+        <div class="col-1">Tax</div>
+        <div class="col-1">Price</div>
+        <div class="col-1">Where</div>
+ 
+ 
+    </div>
 </div>
+<div id= "lists" class="justify-content-center">
+    <div *ngFor="let part of parts">
+        <div class="row justify-content-center">
+        <pcpart-component component={{part.component}} selection={{part.selection}}>Loading... </pcpart-component>
+        </div>
+    </div>
+  
+</div>
+<notes></notes>
+   
+  
+
+ 
+
+   

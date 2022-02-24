@@ -12,6 +12,11 @@ import { BuildGuideLayoutComponent } from './store section/buildguides/buildguid
 import { HomeLayoutComponent } from './homepage/home-layout-component';
 import { CompleteBuildLayoutComponent } from './store section/completebuilds/completebuild-layout/completebuild-layout.component';
 import { HeadphoneLayoutComponent } from './store section/browseproducts/peripherals/headphones/headphone-layout.component';
+import { PcPartComponent } from './store section/systembuilder/pcpartcomponent/pcpart.component';
+import { SystemBuilderLayoutComponent } from './store section/systembuilder/systembuilder-layout.component';
+import { CompatabilityComponent } from './store section/systembuilder/compatabilitycomponent/compatability.component';
+import { NotesComponent } from './store section/systembuilder/notescomponent/notes.component';
+import { CompleteTitleComponent } from './store section/completebuilds/completebuild-layout/completetitle-component/complete-title.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +29,12 @@ import { HeadphoneLayoutComponent } from './store section/browseproducts/periphe
     BuildGuideLayoutComponent,
     HomeLayoutComponent,
     CompleteBuildLayoutComponent,
-    HeadphoneLayoutComponent
+    PcPartComponent,
+    SystemBuilderLayoutComponent,
+    HeadphoneLayoutComponent,
+    CompatabilityComponent,
+    NotesComponent,
+    CompleteTitleComponent,
     ],
   imports: [
     BrowserModule,

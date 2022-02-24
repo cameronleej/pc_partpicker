@@ -1,4 +1,6 @@
 import { Component, Input } from "@angular/core";
+import { part_list } from "./pcpartcomponent/pc-part-list";
+import { PartItemModel } from "./pcpartcomponent/pc-part-list.model";
 
 @Component({
 
@@ -11,5 +13,13 @@ import { Component, Input } from "@angular/core";
 
 export class SystemBuilderLayoutComponent{
 
-   
+    parts: PartItemModel[] = [];
+
+    constructor() {
+       
+        for (var part of part_list) {
+            this.parts.push(part);
+        }
+
+    }
 }

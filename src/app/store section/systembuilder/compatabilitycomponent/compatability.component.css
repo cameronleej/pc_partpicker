@@ -1,0 +1,48 @@
+.card{
+padding-top: 2rem;
+    margin: auto;
+    align-items: center;
+    border: none;
+
+}
+#links{
+    width: 90rem;
+    height: fit-content;
+    border: solid 1pt black;
+
+    background-color: lightgoldenrodyellow;
+    font-weight: bold;
+    padding: 2rem;
+}
+#compat{
+    width: 90rem;
+    height: fit-content;
+    border: solid 1pt black;
+
+    font-weight: bold;
+    color: white;
+}
+#green{
+    background-color: green;
+    padding: 1rem;
+    border-right:solid 1pt black;
+
+}
+#blue{
+   background-color: rgb(69, 93, 149);
+   padding: 1rem;
+   
+}
+#hist{
+    border-left: solid 1pt black;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: lightskyblue;
+}
+
+
