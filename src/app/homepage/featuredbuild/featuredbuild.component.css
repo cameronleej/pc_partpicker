@@ -1,0 +1,46 @@
+
+.completebuilds{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:lightgrey;
+}
+.info{
+    text-align: center;
+    
+}
+.card{
+    width: 28rem;
+    height: 70 rem;
+    padding: 5px;
+    background-color: darkorange;
+    margin-bottom: 3rem;
+    border: none;
+
+}
+
+.title{
+  text-align: center;
+}
+#yellow{
+    color: yellow;
+}
+h2{
+    color: white;
+}
+
+.card .card-title{
+    color:  black;
+    font-size: 50pt!important;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 12rem;
+}
+.card .card-text{
+
+  font-size: 15pt;
+  color: black;
+  padding-bottom: 7rem;
+  font-weight: bold;
+
+}

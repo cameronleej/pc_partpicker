@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { BuildItemModel } from "../store section/completebuilds/build card/build-item-model";
-import { build_list } from "../store section/completebuilds/build card/build-list";
+import { BuildItemModel } from "../homepage/build card/build-item-model";
+import { build_list } from "../homepage/build card/build-list";
 import { mock_product_list } from "../store section/buildguides/store card/mock-product-list";
 import { ProductItemModel } from "../store section/buildguides/store card/product-item-model";
 

@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { BuildItemModel } from "src/app/store section/completebuilds/build card/build-item-model";
-import { build_list } from "src/app/store section/completebuilds/build card/build-list";
+import { FullBuildItemModel } from "src/app/store section/completebuilds/full-build-cards/full-build-item-model";
+import { full_build_list } from "src/app/store section/completebuilds/full-build-cards/full-build-list";
 
 
 @Component({
@@ -11,11 +11,11 @@ import { build_list } from "src/app/store section/completebuilds/build card/buil
 
 export class CompleteBuildLayoutComponent{
    
-    builds: BuildItemModel[] = [];
+    builds: FullBuildItemModel[] = [];
 
     constructor() {
        
-        for (var build of build_list) {
+        for (var build of full_build_list) {
             this.builds.push(build);
         }
 

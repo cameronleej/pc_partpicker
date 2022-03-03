@@ -4,3 +4,19 @@ h2{
     padding: 40px;
     color: white;
 }
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+.card{
+    padding: 10pt;
+}
+
+.table{
+
+    width: 105rem;
+    justify-content: center;
+    align-items: center;
+
+}
+

@@ -1,11 +1,11 @@
 export const mock_product_list = [
 
     {
-        img: "/assets/entryBuild.png",
-        title: "Entry Level Intel Gaming Build",
-        price: 942.67,
+        img: "/assets/entrylevelAMD.png",
+        title: "Entry Level AMD Gaming Build",
+        price: 468.67,
         comments: 42,
-        description: "Intel Core i3-10100 Parametric Video Card (Chipset: GeForce GTX 1650 SUPER) Cooler Master MasterBox Q300L MicroATX Mini Tower"
+        description: "AMD Ryzen 5 5600G Cougar MX330-G Air ATX Mid Tower"
 
     },
     {
@@ -16,11 +16,11 @@ export const mock_product_list = [
         description: "AMD Ryzen 5 5600G Parametric Video Card (Chipset: GeForce GTX 1660 SUPER; Length: 223 mm - 403 mm; Cooling: 2 Fans, 3 Fans Fractal Design Focus G Mini MicroATX Mini Tower"
     },
     {
-        img: "/assets/MagnificentBuild.png",
-        title: "Magnificent AMD Streaming/Gaming Build",
-        price: 2673.15,
-        comments: 169,
-        description: "AMD Ryzen 5 5600X Parametric Video Card (Chipset: GeForce RTX 3080; Length: 224 mm - 403 mm; Cooling: 2 Fans, 3 Fans, 120 mm Radiator, ...) be quiet! Pure Base 500DX ATX Mid Tower"
+        img: "/assets/enthusiastIntel.png",
+        title: "Enthusiast Intel Gaming Build",
+        price: 1944.15,
+        comments: 200,
+        description: "Intel Core i7-12700K Parametric Video Card (Chipset: GeForce RTX 3070 Ti; Cooling: 2 Fans, 3 Fans) Corsair 4000D Airflow ATX Mid Tower"
     }
 ];
 
