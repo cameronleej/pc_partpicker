@@ -1,18 +1,14 @@
 
 
-Lab 5:
+Lab 6:
 
-System Builder Layout:
-*Added system builder pc part component, and used NG for loop to add more rows
-
-* added the compatability componenet up at the top, and used rows and columns to organize it 
-
-*added notes component as a card for the bottom of the page
-
-Complete Title Component:
-
-* added ng for loop and used cards to add builds to the page
-* added a card for the title and the search bars
+*created firebase backend
+*created the realtime database with my info
+*created a new component called user-info that included the data i retrieved from backend
+BONUS:
+    * added new component to layout on homepage for the featured build card
+        **format using the flex box
+    *added new data for the completed builds page 
 
 
 
