@@ -1,4 +1,7 @@
-import { Component, Input } from "@angular/core";
+import { HttpClient } from "@angular/common/http";
+import { Component, Input, OnInit } from "@angular/core";
+import { HomeBuilds } from "./build-list";
+
 
 @Component({
 
@@ -10,26 +13,29 @@ import { Component, Input } from "@angular/core";
 
 export class BuildCardComponent{
 
-    @Input()img: string;
-    @Input()title: string;
+    @Input() img: string;
+    @Input()price: string;
+    @Input() title: string;
+    @Input() upvotes: string;
+    @Input()comments: string;
     @Input()cpu: string;
-    @Input()gpu: string;
+    @Input() gpu:string;
+    @Input() userID: string;
 
-    @Input()price:number;
-    @Input()comments: number;
-    @Input()upvotes: number;
 
-    @Input () userID: string;
+
 
     constructor(){
-        this.img = "/assets/PCPartPicker_Logo.png";
-        this.price = 0.00;
-        this.cpu = "missing cpu";
-        this.gpu = "missing gpu";
-        this.comments = 0;
-        this.upvotes = 0;
-        this.title = "Missing Build Title";
-        this.userID = "null";
-
-    }
+        this.img = "";
+        this.price = "";
+        this.title = "";
+        this.comments = "";
+        this.upvotes = "";
+        this.cpu = "";
+        this.gpu = "";
+        this.userID = "";
+        
+      }
+  
+    
 }

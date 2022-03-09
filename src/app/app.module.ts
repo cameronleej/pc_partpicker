@@ -40,7 +40,7 @@ import { FeaturedBuildComponent } from './homepage/featuredbuild/featuredbuild.c
     NotesComponent,
     CompleteTitleComponent,
     UserInfoComponent,
-    FeaturedBuildComponent
+    FeaturedBuildComponent,
   
     ],
   imports: [

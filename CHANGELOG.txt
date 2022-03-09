@@ -1,14 +1,8 @@
 
 
-Lab 6:
+Lab 7:
 
-*created firebase backend
-*created the realtime database with my info
-*created a new component called user-info that included the data i retrieved from backend
-BONUS:
-    * added new component to layout on homepage for the featured build card
-        **format using the flex box
-    *added new data for the completed builds page 
-
-
+*created new list and section in database
+    *did build list for the homepage at the bottom
+*communicated my website to the backend server to get the information
 

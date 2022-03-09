@@ -1,17 +1,17 @@
 export class BuildItemModel{
 
     img: string;
-    price: number;
+    price: string;
     title: string;
-    upvotes: number;
-    comments: number;
+    upvotes: string;
+    comments: string;
     cpu: string;
     gpu:string;
     userID: string;
 
 
 
-    constructor(img: string, price:number, title:string, comments:number, upvotes:number,cpu: string,gpu:string,userID:string){
+    constructor(img: string, price:string, title:string, comments:string, upvotes:string,cpu: string,gpu:string,userID:string){
 
         this.img = img;
         this.price = price;
