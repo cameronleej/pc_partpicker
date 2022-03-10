@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { BuildCardComponent,} from './homepage/build card/build.card.component';
 import { TopNavBarComponent } from './header/firstnavbar/topnavbar.component';
@@ -18,7 +17,6 @@ import { CompatabilityComponent } from './store section/systembuilder/compatabil
 import { NotesComponent } from './store section/systembuilder/notescomponent/notes.component';
 import { CompleteTitleComponent } from './store section/completebuilds/completebuild-layout/completetitle-component/complete-title.component';
 import { HttpClientModule} from '@angular/common/http';
-import { UserInfoComponent } from './user-info/user-info.component'
 import { FullBuildCardComponent } from './store section/completebuilds/full-build-cards/full-build.card.component';
 import { FeaturedBuildComponent } from './homepage/featuredbuild/featuredbuild.component';
 @NgModule({
@@ -39,7 +37,6 @@ import { FeaturedBuildComponent } from './homepage/featuredbuild/featuredbuild.c
     CompatabilityComponent,
     NotesComponent,
     CompleteTitleComponent,
-    UserInfoComponent,
     FeaturedBuildComponent,
   
     ],
