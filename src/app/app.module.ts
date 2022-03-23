@@ -19,6 +19,11 @@ import { CompleteTitleComponent } from './store section/completebuilds/completeb
 import { HttpClientModule} from '@angular/common/http';
 import { FullBuildCardComponent } from './store section/completebuilds/full-build-cards/full-build.card.component';
 import { FeaturedBuildComponent } from './homepage/featuredbuild/featuredbuild.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,7 +48,9 @@ import { FeaturedBuildComponent } from './homepage/featuredbuild/featuredbuild.c
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

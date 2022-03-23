@@ -1,8 +1,8 @@
 
 
-Lab 7:
+Lab 8:
 
-*created new list and section in database
-    *did build list for the homepage at the bottom
-*communicated my website to the backend server to get the information
+changed HTTP client module to Angular Firebase modules
+
+Deployed website
 
