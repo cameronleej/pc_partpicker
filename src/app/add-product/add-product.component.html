@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addProduct(postForm.value)">
+                <div class="input-group">
+                    <span class="input-group-text">Build Title</span>
+                    <input type="text" ngModel name="title" class="form-control" required>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Cpu</span>
+                    <input type="text" ngModel name="cpu" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Gpu</span>
+                    <input type="text" ngModel name="gpu" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Img</span>
+                    <input type="text" ngModel name="img" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Price</span>
+                    <input type="text" ngModel name="price" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Upvotes</span>
+                    <input type="text" ngModel name="upvotes"class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">User ID</span>
+                    <input type="text" ngModel name="userID" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Comments</span>
+                    <input type="text" ngModel name="comments"class="form-control">
+                </div>
+                <button class="btn-primary" type="submit" [disabled]="!postForm.valid">Add Product</button>
+            </form>
+        </div>
+    </div>
+</div>

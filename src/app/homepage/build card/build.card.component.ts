@@ -1,6 +1,5 @@
 import { HttpClient } from "@angular/common/http";
 import { Component, Input, OnInit } from "@angular/core";
-import { HomeBuilds } from "./build-list";
 
 
 @Component({
@@ -13,27 +12,27 @@ import { HomeBuilds } from "./build-list";
 
 export class BuildCardComponent{
 
-    @Input() img: string;
+    @Input()img: string;
     @Input()price: string;
-    @Input() title: string;
-    @Input() upvotes: string;
+    @Input()title: string;
+    @Input()upvotes: string;
     @Input()comments: string;
     @Input()cpu: string;
-    @Input() gpu:string;
-    @Input() userID: string;
+    @Input()gpu:string;
+    @Input()userID: string;
 
 
 
 
     constructor(){
-        this.img = "";
-        this.price = "";
-        this.title = "";
-        this.comments = "";
-        this.upvotes = "";
-        this.cpu = "";
-        this.gpu = "";
-        this.userID = "";
+        this.img = "0";
+        this.price = "0";
+        this.title = "0";
+        this.comments = "0";
+        this.upvotes = "0";
+        this.cpu = "0";
+        this.gpu = "0";
+        this.userID = "0";
         
       }
   

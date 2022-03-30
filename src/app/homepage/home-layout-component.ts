@@ -2,7 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Component, OnInit } from "@angular/core";
 import { mock_product_list } from "../store section/buildguides/store card/mock-product-list";
 import { ProductItemModel } from "../store section/buildguides/store card/product-item-model";
-import { HomeBuilds } from "./build card/build-list";
+import { BuildItemModel } from "./build card/build-item-model";
 
 @Component({
     selector: 'home-layout',
@@ -12,7 +12,7 @@ import { HomeBuilds } from "./build card/build-list";
 
 export class HomeLayoutComponent implements OnInit {
     products: ProductItemModel[] = [];
-    homeBuilds: HomeBuilds[] | undefined;
+    builds: BuildItemModel[] | undefined;
 
     constructor(private http:HttpClient) {
         for (var product of mock_product_list) {
@@ -27,12 +27,12 @@ export class HomeLayoutComponent implements OnInit {
         this.showHomeBuilds();
     }
     getHomeBuilds() {
-        return this.http.get<HomeBuilds[]>("https://pc-part-picker-dc160-default-rtdb.firebaseio.com/builds.json");
+        return this.http.get<BuildItemModel[]>("https://pc-part-picker-dc160-default-rtdb.firebaseio.com/builds.json");
     }
     showHomeBuilds(){
-        this.getHomeBuilds().subscribe((data:HomeBuilds[])=>{
+        this.getHomeBuilds().subscribe((data:BuildItemModel[])=>{
             console.log(data);
-            this.homeBuilds = data;
+            this.builds = data;
         })
     }
 

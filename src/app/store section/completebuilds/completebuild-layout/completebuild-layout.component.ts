@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { BuildItemModel } from "src/app/homepage/build card/build-item-model";
 import { FullBuildItemModel } from "src/app/store section/completebuilds/full-build-cards/full-build-item-model";
 import { full_build_list } from "src/app/store section/completebuilds/full-build-cards/full-build-list";
 
@@ -11,7 +12,7 @@ import { full_build_list } from "src/app/store section/completebuilds/full-build
 
 export class CompleteBuildLayoutComponent{
    
-    builds: FullBuildItemModel[] = [];
+    builds: BuildItemModel[] = [];
 
     constructor() {
        

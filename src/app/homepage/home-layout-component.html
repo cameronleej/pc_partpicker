@@ -20,10 +20,10 @@
         <div class="row">
             <featuredbuild class="col-md-auto"></featuredbuild>
 
-            <div *ngIf="homeBuilds != undefined">
+            <div *ngIf="builds != undefined">
                 <div class="d-flex justify-content-around">
 
-                <div *ngFor="let card of homeBuilds" class="col-md-auto">
+                <div *ngFor="let card of builds" class="col-md-auto">
                         <pcpart-build-card img="{{card.img}}" title="{{card.title}}" upvotes="{{card.upvotes}}"
                             cpu="{{card.cpu}}" gpu="{{card.gpu}}" price="{{card.price}}" comments="{{card.comments}}"
                             userID="{{card.userID}}"></pcpart-build-card>

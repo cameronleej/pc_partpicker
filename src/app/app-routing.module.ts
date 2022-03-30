@@ -7,6 +7,7 @@ import { HomeLayoutComponent } from './homepage/home-layout-component';
 import { CompleteBuildLayoutComponent } from './store section/completebuilds/completebuild-layout/completebuild-layout.component';
 import { SystemBuilderLayoutComponent } from './store section/systembuilder/systembuilder-layout.component';
 import { HeadphoneLayoutComponent } from './store section/browseproducts/peripherals/headphones/headphone-layout.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 
 const routes:Routes = [
@@ -24,7 +25,11 @@ const routes:Routes = [
 },
 {
   path:'headphone', component: HeadphoneLayoutComponent
+},
+{
+  path:'admin', component: AddProductComponent
 }
+  
   
 ];
 
