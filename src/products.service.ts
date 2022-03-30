@@ -14,7 +14,7 @@ export class ProductService {
     }
 
      getHomeBuilds() {
-         return this.db.list<BuildItemModel[]>("https://pc-part-picker-dc160-default-rtdb.firebaseio.com/builds.json");
+         return this.db.list<BuildItemModel>("builds").valueChanges();
      }
     getHomeBuild() {
         return this.db.list<BuildItemModel>("builds").valueChanges();

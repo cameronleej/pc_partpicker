@@ -2,7 +2,5 @@
 
 Lab 8:
 
-changed HTTP client module to Angular Firebase modules
-
-Deployed website
-
+added programatically added cards to home page
+Added forms to do so

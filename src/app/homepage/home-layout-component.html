@@ -16,26 +16,28 @@
 
 
 
-    <div class="container-fluid d-flex">
-        <div class="row">
-            <featuredbuild class="col-md-auto"></featuredbuild>
+    <div class="container-fluid">
+        <featuredbuild class="col-md-auto"></featuredbuild>
+
+       
 
             <div *ngIf="builds != undefined">
-                <div class="d-flex justify-content-around">
+                <div class="">
 
-                <div *ngFor="let card of builds" class="col-md-auto">
-                        <pcpart-build-card img="{{card.img}}" title="{{card.title}}" upvotes="{{card.upvotes}}"
+                    <div *ngFor="let card of builds" class="row-1">
+                        <div class="col-4">
+                            <pcpart-build-card img="{{card.img}}" title="{{card.title}}" upvotes="{{card.upvotes}}"
                             cpu="{{card.cpu}}" gpu="{{card.gpu}}" price="{{card.price}}" comments="{{card.comments}}"
                             userID="{{card.userID}}"></pcpart-build-card>
-                    </div>
+                        </div>
+                            
+                           
+                        
+                        </div>
+
 
                 </div>
-
-            </div>
-
         </div>
-
-
 
     </div>
 </div>
