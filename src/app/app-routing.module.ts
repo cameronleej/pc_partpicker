@@ -8,6 +8,7 @@ import { CompleteBuildLayoutComponent } from './store section/completebuilds/com
 import { SystemBuilderLayoutComponent } from './store section/systembuilder/systembuilder-layout.component';
 import { HeadphoneLayoutComponent } from './store section/browseproducts/peripherals/headphones/headphone-layout.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { AuthenticationComponent } from './authentication/authentication.component';
 
 
 const routes:Routes = [
@@ -28,6 +29,9 @@ const routes:Routes = [
 },
 {
   path:'admin', component: AddProductComponent
+},
+{
+  path:'auth', component: AuthenticationComponent
 }
   
   

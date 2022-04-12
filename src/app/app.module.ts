@@ -26,6 +26,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddProductComponent } from './add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './authentication/authentication.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,6 +47,7 @@ import { FormsModule } from '@angular/forms';
     CompleteTitleComponent,
     FeaturedBuildComponent,
     AddProductComponent,
+    AuthenticationComponent,
   
     ],
   imports: [

@@ -1,6 +1,8 @@
 
 
-Lab 8:
+Lab 10:
 
-added programatically added cards to home page
-Added forms to do so
+**added the authentication page for users to sign in 
+**created authentication service to send the data to firebase
+** had a message appear as to whether or not the sign in was successful
+**if it was not, the error is printed to console and and unsuccessful message appears
